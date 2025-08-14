@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.19.2",
     "puppeteer": "^21.6.1",
-    "puppeteer-extra": "^3.4.3",
+    "puppeteer-extra": "^3.3.3",
     "puppeteer-extra-plugin-stealth": "^2.11.1"
   }
 }
