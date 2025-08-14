@@ -1,12 +1,15 @@
-cat > package.json <<'EOF'
 {
   "name": "baka-proxy",
   "version": "1.0.0",
   "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
-    "puppeteer-extra": "^3.3.6",
+    "puppeteer": "^21.6.1",
+    "puppeteer-extra": "^3.4.3",
     "puppeteer-extra-plugin-stealth": "^2.11.1"
   }
 }
-EOF
